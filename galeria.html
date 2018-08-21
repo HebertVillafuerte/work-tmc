@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>WORK-TMC | GALERÍA</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/response.css">
+  	<link rel="stylesheet" href="css/galeria.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<script src="js/vue.js"></script>
+</head>
+<body>
+	<div class="header" id="work">
+		<nav class="navigator">
+			<a href="index.html"><img class="logowork" src="img/work-tmc-logo.png" alt="" width="180"></a>
+			<span class="icon-menu entrar" v-if="remove=='salir'" v-on:click="remove='entrar'"></span>
+			<span class="icon-cross salir" v-if="remove=='entrar'" v-on:click="remove='salir'"></span>
+			<ul class="ulmenu"  v-bind:class="{'removenav':remove=='entrar','entrarnav':remove=='salir'}">
+				<a href="index.html" class="linkmenu"><li class="listamenu">Inicio</li></a>
+				<a href="nosotros.html" class="linkmenu"><li class="listamenu">Nosotros</li></a>
+				<a href="servicios.html" class="linkmenu"><li class="listamenu">Servicios</li></a>
+				<a href="galeria.html" class="linkmenu"><li class="listamenu activo">Galería</li></a>
+				<a href="contacto.html" class="linkmenu"><li class="listamenu">Contacto</li></a>
+			</ul>
+		</nav>
+	</div>
+	<div class="estorbofixesheader"></div>
+	<div class="banner bannergaleria">
+		<div class="banneropacouno">
+			<div class="banneropacodos">
+				<div>
+					<img class="logoworkgrande" src="img/work-tmc-logoblanco.png" width="600">
+					<p class="titlebanner">-*-CONOCE NUESTRA GALERÍA-*-</p>
+				</div>
+			</div>
+		</div>
+	</div>
+  <div class="containergaleriauno">
+    <h1 class="titlegaleria">TRABAJOS DE TOPOGRAFÍA</h1>
+    <h2 class="titlegaleriados">En WORK-TMC disponemos de toda la experiencia y maquinaria especial
+    para garantizar a los clientes excelentes trabajos de topografia.</h2>
+  </div>
+  <div class="containergaleriauno">
+    <div class="containerallgaleria">
+      <div class="galeriaimgcontainer">
+        <img class="imggaleria" src="img/galeria/feliceswork.png" alt="">
+      </div>
+      <div class="galeriaimgcontainer">
+        <img class="imggaleria" src="img/galeria/workcarretera.png" alt="">
+      </div>
+      <div class="galeriaimgcontainer">
+        <img class="imggaleria" src="img/galeria/workconstruccion.png" alt="">
+      </div>
+      <div class="galeriaimgcontainer">
+        <img class="imggaleria" src="img/galeria/workherramienta.png" alt="">
+      </div>
+      <div class="galeriaimgcontainer">
+        <img class="imggaleria" src="img/galeria/workherramientados.png" alt="">
+      </div>
+      <div class="galeriaimgcontainer">
+        <img class="imggaleria" src="img/galeria/workmisti.jpg" alt="">
+      </div>
+      <div class="galeriaimgcontainer">
+        <img class="imggaleria" src="img/galeria/workobra.png" alt="">
+      </div>
+      <div class="galeriaimgcontainer">
+        <img class="imggaleria" src="img/galeria/workobreros.png" alt="">
+      </div>
+      <div class="galeriaimgcontainer">
+        <img class="imggaleria" src="img/galeria/workteam.png" alt="">
+      </div>
+      <div class="galeriaimgcontainer">
+        <img class="imggaleria" src="img/galeria/workteamdos.png" alt="">
+      </div>
+      <div class="galeriaimgcontainer">
+        <img class="imggaleria" src="img/galeria/workworkings.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="containergaleriauno">
+    <h1>y más...</h1>
+  </div>
+	<footer>
+		<ul class="ulmenufooter">
+			<li class="listamenufooter">Inicio</li>
+			<li class="listamenufooter">Nosotros</li>
+			<li class="listamenufooter">Servicios</li>
+			<li class="listamenufooter">Galería</li>
+			<li class="listamenufooter">Contacto</li>
+		</ul>
+		<div class="containerfooter">
+			<form class="contenidofooterfinal" action="">
+				<p class="txtfooter">Quieres iniciar un proyecto?</p>
+				<p class="txtfooter"> contacta con nosotros , por este formulario o por este numero 987654321</p>
+				<div class="contenidoinputs">
+					<input class="inputemail" type="email" placeholder="correo electronico">
+					<textarea class="inputinfo" name="" id="" cols="30" rows="10" placeholder="Que es lo que quieres que hagamos - cotiza."></textarea>
+					<input class="inputsubmit" type="submit" value=" Enviar ">
+				</div>
+			</form>
+			<div class="contenidofooterfinal">
+				<div class="divsociales">
+					<p class="txtfooter">siguenos en las redes
+					<a class="iconsocial" href="www.facebook.com"><span class="icon-facebook2">   </span></a>
+                        <a class="iconsocial" href="www.instagram.com"><span class="icon-instagram"> </span></a></p>
+				</div>
+				<div class="divfinalizado">
+					<p>
+						TODOS LOS DERECHOS RESERVADOR WORK-TMC-TÉCNOLOGÍA 2019
+					</p>
+					<small> created for <a href="">EichVi</a> - <a href="">Hebert VC</a></small>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		var worktmc = new Vue({
+			el:'#work',
+			data:{
+				remove:'salir',
+			}
+		})
+	</script>
+</body>
+</html>
