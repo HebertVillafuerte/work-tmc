@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>WORK-TMC | SERVICIOS</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="icon" sizes="192x192" href="img/worklogo.ico">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/response.css">
+  <link rel="stylesheet" href="css/servicios.css">
+	<script src="js/vue.js"></script>
+</head>
+<body>
+	<div class="header" id="work">
+		<nav class="navigator">
+			<a href="index.html"><img class="logowork" src="img/work-tmc-logo.png" alt="" width="180"></a>
+			<span class="icon-menu entrar" v-if="remove=='salir'" v-on:click="remove='entrar'"></span>
+			<span class="icon-cross salir" v-if="remove=='entrar'" v-on:click="remove='salir'"></span>
+			<ul class="ulmenu"  v-bind:class="{'removenav':remove=='entrar','entrarnav':remove=='salir'}">
+				<a href="index.html" class="linkmenu"><li class="listamenu">Inicio</li></a>
+				<a href="nosotros.html" class="linkmenu"><li class="listamenu">Nosotros</li></a>
+				<a href="servicios.html" class="linkmenu"><li class="listamenu activo">Servicios</li></a>
+				<a href="galeria.html" class="linkmenu"><li class="listamenu">Galería</li></a>
+				<a href="contacto.html" class="linkmenu"><li class="listamenu">Contacto</li></a>
+			</ul>
+		</nav>
+	</div>
+	<div class="estorbofixesheader"></div>
+	<div class="banner bannerservicios">
+		<div class="banneropacouno">
+			<img class="pngtopografia" src="img/t2.png" alt="">
+			<div class="banneropacodos">
+				<div>
+					<img class="logoworkgrande" src="img/work-tmc-logoblanco.png" width="600">
+					<p class="titlebanner">-*-SERVICIOS-*-</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <div class="containerserviciosuno">
+      <h1>en WORK-TMC nos caracterizamos por brindar un servicio topográfico de primer nivel</h1>
+      <h2>Somos especialistas en </h2>
+  </div>
+  <div class="containerserviciosuno">
+      <div class="subcontainerservicios">
+        <div class="servicioscontainer">
+
+          <div class="divtxtservicios">
+            Topografía subterránea
+          </div>
+          <div class="containerimgser"><img class="imgservicios" src="img/services/subterranea.jpg" alt=""></div>
+          <div class="minimodalservicios"><a class="linkcontactarservicios" href="">contactar</a></div>
+        </div>
+        <div class="servicioscontainer">
+          <div class="divtxtservicios">Mecánica y obras civiles</div>
+          <div class="containerimgser"><img class="imgservicios" src="img/services/mecanicayobras.jpg" alt=""></div>
+          <div class="minimodalservicios"><a class="linkcontactarservicios" href="">contactar</a></div>
+        </div>
+        <div class="servicioscontainer">
+          <div class="divtxtservicios">Supervisión y control de obras civiles y de mina</div>
+          <div class="containerimgser"><img class="imgservicios" src="img/services/supervicion.jpg" alt=""></div>
+          <div class="minimodalservicios"><a class="linkcontactarservicios" href="">contactar</a></div>
+        </div>
+        <div class="servicioscontainer">
+          <div class="divtxtservicios">Alquiler de maquinaria y equipos topográficos</div>
+          <div class="containerimgser"><img class="imgservicios" src="img/services/alquiler.png" alt=""></div>
+          <div class="minimodalservicios"><a class="linkcontactarservicios" href="">contactar</a></div>
+        </div>
+        <div class="servicioscontainer">
+          <div class="divtxtservicios">Movimientos de tierra</div>
+          <div class="containerimgser"><img class="imgservicios" src="img/services/movimiento.jpg" alt=""></div>
+          <div class="minimodalservicios"><a class="linkcontactarservicios" href="">contactar</a></div>
+        </div>
+        <div class="servicioscontainer">
+          <div class="divtxtservicios">Trazos topográficos</div>
+          <div class="containerimgser"><img class="imgservicios" src="img/services/trazos.jpg" alt=""></div>
+          <div class="minimodalservicios"><a class="linkcontactarservicios" href="">contactar</a></div>
+        </div>
+        <div class="servicioscontainer">
+          <div class="divtxtservicios">Lotización</div>
+          <div class="containerimgser"><img class="imgservicios" src="img/services/lotizacion.jpeg" alt=""></div>
+          <div class="minimodalservicios"><a class="linkcontactarservicios" href="">contactar</a></div>
+        </div>
+        <div class="servicioscontainer">
+          <div class="divtxtservicios">levantamiento de carreteras y canales</div>
+          <div class="containerimgser"><img class="imgservicios" src="img/services/levantamiento.jpg" alt=""></div>
+          <div class="minimodalservicios"><a class="linkcontactarservicios" href="">contactar</a></div>
+        </div>
+        <div class="servicioscontainer">
+          <div class="divtxtservicios">Digitalización de datos topográficos y dibujo de planos</div>
+          <div class="containerimgser"><img class="imgservicios" src="img/services/dibujo.jpg" alt=""></div>
+          <div class="minimodalservicios"><a class="linkcontactarservicios" href="">contactar</a></div>
+        </div>
+      </div>
+  </div>
+  <div class="containerserviciosuno">
+      <h1>ENTRE OTROS</h1>
+      <h2>Garantizamos un exelente servicio de topografía en general</h2>
+			<h3>Tenemos experiencia en el manejo de equipos topográficos de diferentes
+			marcas que otorgan diversas ventajas en su uso.</h3>
+      <h4>Contactenos y lo atenderemos con la amabilidad que nos caracteriza </h4>
+  </div>
+	<footer>
+		<ul class="ulmenufooter">
+			<li class="listamenufooter">Inicio</li>
+			<li class="listamenufooter">Nosotros</li>
+			<li class="listamenufooter">Servicios</li>
+			<li class="listamenufooter">Galería</li>
+			<li class="listamenufooter">Contacto</li>
+		</ul>
+		<div class="containerfooter">
+			<form class="contenidofooterfinal" action="">
+				<p class="txtfooter">Quieres iniciar un proyecto?</p>
+				<p class="txtfooter"> contacta con nosotros , por este formulario o por este numero 987654321</p>
+				<div class="contenidoinputs">
+					<input class="inputemail" type="email" placeholder="correo electronico">
+					<textarea class="inputinfo" name="" id="" cols="30" rows="10" placeholder="Que es lo que quieres que hagamos - cotiza."></textarea>
+					<input class="inputsubmit" type="submit" value=" Enviar ">
+				</div>
+			</form>
+			<div class="contenidofooterfinal">
+				<div class="divsociales">
+					<p class="txtfooter">siguenos en las redes
+					<a class="iconsocial" href="www.facebook.com"><span class="icon-facebook2">   </span></a>
+                        <a class="iconsocial" href="www.instagram.com"><span class="icon-instagram"> </span></a></p>
+				</div>
+				<div class="divfinalizado">
+					<p>
+						TODOS LOS DERECHOS RESERVADOR WORK-TMC-TÉCNOLOGÍA 2019
+					</p>
+					<small> created for <a href="">EichVi</a> - <a href="">Hebert VC</a></small>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		var worktmc = new Vue({
+			el:'#work',
+			data:{
+				remove:'salir',
+			}
+		})
+	</script>
+</body>
+</html>
