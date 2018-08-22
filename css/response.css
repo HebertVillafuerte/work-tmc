@@ -1,0 +1,598 @@
+@media (max-width:1220px){
+
+	.ulmenu{
+		transition: all 0.5s;
+	}
+
+	.listamenu{
+		color: darkorange;
+		font-size: ;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	.removenav{
+		left: 0;
+	}
+
+	.entrarnav{
+		left: -780px;
+	}
+
+	.banner{
+		width: 100%;
+		height: 390px
+	}
+
+	.pngtopografia{
+		width: 100%;
+	}
+
+	.logoworkgrande{
+		width: 80%;
+	}
+
+	.titlebanner{
+		font-size: 20px;
+	}
+
+	.contenidouno{
+		text-align: center;
+	}
+
+	.imgbienvenido{
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+	.minicontenidos{
+		margin: 1px;
+	}
+
+	.txtinfomini{
+		font-size: 14px;
+		padding: 5px;
+	}
+
+	.listasimgclientes{
+		margin: 5px;
+	}
+
+	.imgclientes{
+		width: 150px;
+	}
+	/* footer */
+
+	footer{
+		border-bottom: 1px solid orange;
+	}
+	.containerfooter{
+		display: block;
+	}
+
+	.contenidofooterfinal{
+		width: 100%;
+		margin: 25px auto;
+	}
+
+	.inputinfo{
+		width: 100%;
+	}
+
+	.inputemail{
+		width: 100%;
+		height: 30px;
+	}
+
+	.inputsubmit{
+		width: 100%;
+	}
+
+	.contenidofooterfinal{
+		width: 100%;
+		margin: 10px auto;
+	}
+}
+
+@media (max-width:750px){
+	.icon-menu , .icon-cross{
+		display: block;
+		color: orange;
+		position: absolute;
+		right: 0;
+		font-size: 30px;
+		width: 40px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 10px;
+		cursor: pointer;
+	}
+	.ulmenu{
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background: #FFC400;
+		left: -700px;
+		top: 65px;
+		transition: all 0.5s;
+		color: white;
+	}
+
+	.listamenu{
+		color: white;
+		font-size: 25px;
+	}
+
+	.removenav{
+		left: 0;
+	}
+
+	.entrarnav{
+		left: -780px;
+	}
+
+	.banner{
+		width: 100%;
+		height: 390px
+	}
+
+	.pngtopografia{
+		width: 100%;
+	}
+
+	.logoworkgrande{
+		width: 80%;
+	}
+
+	.titlebanner{
+		font-size: 20px;
+	}
+
+	.contenidouno{
+		text-align: center;
+	}
+
+	.imgbienvenido{
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+
+	.contenidodos{
+		display: block;
+	}
+	.minicontenidos{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.minicontenidotxt{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+
+	.txtinfomini{
+		font-size: 18px;
+		padding: 5px;
+	}
+
+	.listasimgclientes{
+		margin: 5px;
+	}
+
+	.imgclientes{
+		width: 150px;
+	}
+	/* footer */
+
+	footer{
+		border-bottom: 1px solid orange;
+	}
+	.containerfooter{
+		display: block;
+	}
+
+	.contenidofooterfinal{
+		width: 100%;
+		margin: 25px auto;
+	}
+
+	.inputinfo{
+		width: 100%;
+	}
+
+	.inputemail{
+		width: 100%;
+		height: 30px;
+	}
+
+	.inputsubmit{
+		width: 100%;
+	}
+
+	.contenidofooterfinal{
+		width: 100%;
+		margin: 10px auto;
+	}
+}
+
+
+@media (max-width:650px){
+	.icon-menu , .icon-cross{
+		display: block;
+		color: orange;
+		position: absolute;
+		right: 0;
+		font-size: 30px;
+		width: 40px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 10px;
+		cursor: pointer;
+	}
+	.ulmenu{
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background: #FFC400;
+		left: -700px;
+		top: 65px;
+		transition: all 0.5s;
+		color: white;
+
+	}
+
+	.listamenu{
+		color: white;
+		font-size: 25px;
+		border-bottom: 1px solid white;
+	}
+
+	.removenav{
+		left: 0;
+	}
+
+	.entrarnav{
+		left: -700px;
+	}
+
+	.banner{
+		width: 100%;
+		height: 280px
+	}
+
+	.pngtopografia{
+		width: 100%;
+	}
+
+	.logoworkgrande{
+		width: 95%;
+	}
+
+	.titlebanner{
+		font-size: 20px;
+	}
+
+	.contenidouno{
+		display: block;
+		text-align: center;
+	}
+
+	.imgbienvenido{
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+
+	.contenidodos{
+		display: block;
+	}
+	.minicontenidos{
+		width: 100%;
+	}
+
+	.txtinfomini{
+		font-size: 14px;
+		padding: 5px;
+	}
+
+	.listasimgclientes{
+		margin: 5px;
+	}
+
+	.imgclientes{
+		width: 150px;
+	}
+	/* footer */
+
+	footer{
+		border-bottom: 1px solid orange;
+	}
+	.containerfooter{
+		display: block;
+	}
+
+	.contenidofooterfinal{
+		width: 100%;
+		margin: 25px auto;
+	}
+
+	.inputinfo{
+		width: 100%;
+	}
+
+	.inputemail{
+		width: 100%;
+		height: 30px;
+	}
+
+	.inputsubmit{
+		width: 100%;
+	}
+
+	.contenidofooterfinal{
+		width: 100%;
+		margin: 10px auto;
+	}
+}
+
+@media (max-width:500px){
+	.icon-menu , .icon-cross{
+		display: block;
+		color: orange;
+		position: absolute;
+		right: 0;
+		font-size: 30px;
+		width: 40px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 10px;
+		cursor: pointer;
+	}
+
+
+
+	.ulmenu{
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background: #FFC400;
+		left: -700px;
+		top: 65px;
+		transition: all 0.5s;
+		color: white;
+	}
+
+	.listamenu{
+		color: white;
+		font-size: 25px;
+	}
+
+	.removenav{
+		left: 0;
+	}
+
+	.entrarnav{
+		left: -700px;
+	}
+
+	.banner{
+		width: 100%;
+		height: 280px
+	}
+
+	.pngtopografia{
+		width: 100%;
+	}
+
+	.logoworkgrande{
+		width: 95%;
+	}
+
+	.titlebanner{
+		font-size: 20px;
+	}
+
+	.contenidouno{
+		display: block;
+		text-align: center;
+	}
+
+	.imgbienvenido{
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+
+	.contenidodos{
+		display: block;
+	}
+	.minicontenidos{
+		width: 100%;
+	}
+
+	.txtinfomini{
+		font-size: 14px;
+		padding: 5px;
+	}
+
+	.listasimgclientes{
+		margin: 5px;
+	}
+
+	.imgclientes{
+		width: 130px;
+	}
+	/* footer */
+
+	footer{
+		border-bottom: 1px solid orange;
+	}
+	.containerfooter{
+		display: block;
+	}
+
+	.contenidofooterfinal{
+		width: 100%;
+		margin: 25px auto;
+	}
+
+	.inputinfo{
+		width: 100%;
+	}
+
+	.inputemail{
+		width: 100%;
+		height: 30px;
+	}
+
+	.inputsubmit{
+		width: 100%;
+	}
+
+	.contenidofooterfinal{
+		width: 100%;
+		margin: 10px auto;
+	}
+}
+
+
+@media (max-width:415px){
+
+	.icon-menu , .icon-cross{
+		display: block;
+		color: orange;
+		position: absolute;
+		right: 0;
+		font-size: 30px;
+		width: 40px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 10px;
+		cursor: pointer;
+	}
+
+
+
+	.ulmenu{
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background: #FFC400;
+		left: -700px;
+		top: 65px;
+		transition: all 0.5s;
+		color: white;
+	}
+
+	.listamenu{
+		color: white;
+		font-size: 25px;
+	}
+
+	.removenav{
+		left: 0;
+	}
+
+	.entrarnav{
+		left: -700px;
+	}
+
+	.banner{
+		height: 180px;
+	}
+
+	.banneropacouno{
+		height: 180px;
+	}
+	.pngtopografia{
+		width: 350px;
+	}
+	.logoworkgrande{
+		width: 95%;
+	}
+
+	.titlebanner{
+		font-size: 20px;
+	}
+
+	.contenidouno{
+		display: block;
+		text-align: center;
+	}
+
+	.imgbienvenido{
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+
+	.contenidodos{
+		display: block;
+	}
+	.minicontenidos{
+		width: 100%;
+	}
+
+	.txtinfomini{
+		font-size: 14px;
+		padding: 5px;
+	}
+
+	.listasimgclientes{
+		margin: 5px;
+	}
+
+	.imgclientes{
+		width: 130px;
+	}
+	/* footer */
+
+	footer{
+		border-bottom: 1px solid orange;
+	}
+	.containerfooter{
+		display: block;
+	}
+
+	.contenidofooterfinal{
+		width: 100%;
+		margin: 25px auto;
+	}
+
+	.inputinfo{
+		width: 100%;
+	}
+
+	.inputemail{
+		width: 100%;
+		height: 30px;
+	}
+
+	.inputsubmit{
+		width: 100%;
+	}
+
+	.contenidofooterfinal{
+		width: 100%;
+		margin: 10px auto;
+	}
+}

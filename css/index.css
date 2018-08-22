@@ -1,0 +1,345 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'roboto';
+}
+
+.header{
+	width: 100%;
+	height: 70px;
+
+	position: fixed;
+	background: white;
+	z-index: 5;
+	box-shadow: -1px 1px 9px 3px rgba(0,0,0,0.5);
+}
+
+.estorbofixesheader{
+	height: 70px;
+}
+
+.navigator{
+	width: 90%;
+	max-width: 1300px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logowork{
+	height: 55px;
+	margin: 7px 0;
+}
+
+.ulmenu{
+	display: flex;
+}
+
+.listamenu{
+	list-style: none;
+	line-height: 70px;
+	font-size: 17px;
+	text-align: center;
+	cursor: pointer;
+	padding: 0 15px;
+	color: darkorange;
+	transition: all 0.3s;
+}
+
+.icon-menu{
+	display: none;
+}
+
+.listamenu:hover{
+	background: rgba(0,0,0,0.2);
+	color: white;
+
+}
+
+.activo{
+	background: orange;
+	color: white;
+}
+
+.banner{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	background-image: url(../img/cc.jpg);
+ 	background-attachment: fixed;
+ 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.banneropacouno{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.pngtopografia{
+	display: block;
+	width: 70%;
+	margin: auto;
+}
+
+.banneropacodos{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+
+.contenidouno{
+	width: 90%;
+	max-width: 1300px;
+	margin:20px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.txtbienvenido{
+	font-size: 25px;
+	color: #001f3f;
+}
+
+hr{
+	width: 90%;
+	max-width: 1300px;
+	margin: auto;
+	border:1px solid rgba(0,0,0,0.1);
+}
+
+.contenidodos{
+	width: 90%;
+	max-width: 1300px;
+	margin:20px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.minicontenidos{
+	width: 48%;
+	margin: 10px;
+	border: 1px solid rgba(0,0,0,0.1);
+	display: flex;
+	justify-content: space-between;
+}
+
+.minicontenidoimg{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.miniimgcontenido{
+	width: 120%;
+}
+
+.miniopacador{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	left: 0;
+	top: 0;
+}
+
+.minicontenidotxt{
+	width: 59%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.titleinfomini{
+	color: #0074D9;
+	text-align: center;
+}
+
+.txtinfomini{
+	color: #001f3f;
+	text-align: center;
+}
+
+
+.contenidotres{
+	width: 90%;
+	max-width: 1300px;
+	margin:20px auto;
+}
+
+.title3{
+	color: orange;
+	text-align: center;
+	font-size: 40px;
+}
+
+.clientescontainer{
+
+}
+
+.ulclientescontainer{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.listasimgclientes{
+	list-style: none;
+	padding: 0;
+	margin: 25px;
+
+}
+.imgclientes{
+	filter:grayscale(1);
+
+}
+
+.contenidocuatro{
+	width: 90%;
+	max-width: 1300px;
+	margin:20px auto;
+}
+
+
+.titlecuatroubicacion{
+	text-align: center;
+	font-size: 50px;
+	color: #0074D9;
+}
+
+.ubicacion{
+	border: 1px solid rgba(0,0,0,0.3);
+	width:100%;
+	height: 350px;
+}
+
+
+
+
+
+
+
+
+/* sobre le  footer */
+
+footer{
+	width: 100%;
+	background: #ffae00;
+}
+
+
+
+.ulmenufooter{
+	width: 85%;
+	max-width: 1300px;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+}
+.listamenufooter{
+	list-style: none;
+	color: white;
+	font-size: 15px;
+	margin: 30px 0;
+	cursor: pointer;
+	border-bottom: 1px solid white;
+	padding: 0 3px;
+	text-align: center;
+}
+
+.txtfooter{
+	color: white;
+}
+.containerfooter{
+	width: 90%;
+	max-width: 1300px;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+}
+
+.contenidofooterfinal{
+	width: 48%;
+	margin:30px auto;
+}
+
+.inputemail{
+	width: 90%;
+	margin: 5px auto;
+	border: none;
+	border-radius: 5px;
+
+}
+
+.inputinfo{
+	width: 90%;
+	min-width: 90%;
+	margin: auto;
+	height: 50px;
+	max-height: 50px;
+	min-height: 50px;
+	border: none;
+	border-radius: 5px;
+
+}
+
+.inputsubmit{
+	width: 90%;
+	background: orangered;
+	border: none;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.inputsubmit:hover{
+
+	background: white;
+	border: 1px solid orangered;
+	color: orangered;
+	padding: 5px;
+}
+
+a{
+	color: white;
+}
+
+.divsociales{
+	height: 50px;
+    text-align: center;
+}
+
+.iconsocial{
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.divfinalizado{
+	text-align: center;
+	margin: 30px;
+	color: white;
+}

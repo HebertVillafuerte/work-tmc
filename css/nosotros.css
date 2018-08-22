@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.bannernosotros{
+  background: url(../img/topografia.jpg);
+  background-attachment: fixed;
+ 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.titlebanner{
+  font-size: 50px;
+}
+
+
+.contenidounonosotros{
+  width: 100%;
+  background: orange;
+  margin-bottom: 20px;
+  border-top: 3px solid white;
+}
+
+.unonosotroscont{
+  width: 90%;
+	max-width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containernosotrosall{
+  width: 99%;
+  margin: auto;
+}
+
+.txtnosotros{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  display: block;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.sesgounonosotros{
+  width: 70%;
+  background:#0074D9 ;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  border-top-right-radius: 5px;
+}
+
+.politicahr{
+  width: 100%;
+  border: 1px solid #0074D9;
+}
+
+.ulpolitica{
+  margin: 25px 0;
+  color:  #0074D9;
+}
+
+.sesgounonostrostxr{
+  width: 90%;
+	max-width: 1300px;
+  margin: auto;
+}
+
+li{
+  list-style:georgian;
+  padding: 5px;
+}
+
+.sesgodosnosotros{
+  width: 70%;
+  background: #009688 ;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  border-top-left-radius: 5px;
+}
+.storbovisiondoos{
+  height: 40px;
+}
+
+.visionhr{
+  width: 100%;
+  border: 1px solid #009688 ;
+}
+
+.ulvision{
+  margin: 25px 0;
+  color:#009688 ;
+}
+
+.sesgodosnostrostxr{
+  width: 90%;
+	max-width: 1300px;
+  margin: auto;
+}
+
+.sesgotresnosotros{
+  width: 70%;
+  background: rgb(224, 47, 68);
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  border-top-right-radius:5px;
+}
+.misionhr{
+  width: 100%;
+  border: 1px solid rgb(224, 47, 68);
+}
+
+.ulmision{
+  margin: 25px 0;
+  color: rgb(224, 47, 68);
+}
+
+.containervalores{
+  width: 90%;
+	max-width: 1300px;
+  margin: auto;
+}
+
+.titlevalores{
+  text-align: center;
+  color: orange;
+  font-size: 50px;
+}
+
+.ulvalores{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.listasvalores{
+  width: 250px;
+  list-style: none;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px auto;
+  color: white;
+}

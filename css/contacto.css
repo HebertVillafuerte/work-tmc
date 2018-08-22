@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: orange;
+}
+.containercontacto{
+  width: 100%;
+	overflow: hidden;
+	background-image: url(../img/galeriawork.jpg);
+ 	background-attachment: fixed;
+ 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.containercontactodos{
+  width: 90%;
+	max-width: 1300px;
+	margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subcontainercontacto{
+  width: 100%;
+  max-width: 600px;
+  margin: 25px auto;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.containerform{
+  width: 85%;
+  margin: auto;
+}
+
+.inputtxt{
+  display: block;
+  width: 90%;
+  margin:20px auto;
+  height: 30px;
+  border-radius: 5px;
+  border:none;
+}
+
+.txtarea{
+  display: block;
+  width: 90%;
+  margin:5px auto;
+  height: 50px;
+  border-radius: 5px;
+  border:none;
+}
+
+.inputsubmit{
+  color: white;
+}
+
+.blanco{
+  background: rgba(255,255,255,0.8);
+}
+
+.txtcontactowork{
+  font-size: 20px;
+  color: #001f3f;
+  padding: 10px;
+}
+.containerlistascont{
+  width: 95%;
+  margin: auto;
+}
+
+.optionscontacto{
+  color:#0074D9;
+  text-align: left;
+  list-style: armenian;
+  margin: 5px 10px;
+  padding: 5px ;
+}

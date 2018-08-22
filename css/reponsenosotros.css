@@ -1,0 +1,41 @@
+@media (max-width:700spx){
+  .titlebanner{
+    font-size: 40px;
+  }
+
+  .unonosotroscont{
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+
+  .txtnosotros{
+    width: 95%;
+    margin: 20px auto;
+    padding: 0;
+    font-size: 16px;
+    padding: 5px 0;
+  }
+
+}
+
+
+@media (max-width:500px){
+  .titlebanner{
+    font-size: 30px;
+  }
+
+  .unonosotroscont{
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+
+  .txtnosotros{
+    width: 95%;
+    margin: 20px auto;
+    padding: 0;
+    font-size: 16px;
+    padding: 5px 0;
+  }
+}
